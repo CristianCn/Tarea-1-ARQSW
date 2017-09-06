@@ -1,0 +1,28 @@
+{
+  "name": "tarea-1-arqsw",
+  "version": "1.0.0",
+  "description": "Repositorio para la tarea 1 de Arquitectura de sistemas de software, se presenta una pequeña app usando Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianCn/Tarea-1-ARQSW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianCn/Tarea-1-ARQSW/issues"
+  },
+  "homepage": "https://github.com/CristianCn/Tarea-1-ARQSW#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "sqlite3": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
