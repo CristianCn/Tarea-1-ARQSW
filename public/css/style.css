@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+    width: 100%
+  }
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0C1D31;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+  }
+
+#Title, p {
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.91);
+}
+
+#Title {
+    font-weight: bold;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
