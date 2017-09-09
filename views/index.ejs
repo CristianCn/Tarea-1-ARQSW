@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">    
+        <title>Express App</title>
+    </head>
+    <body>
+        <h1>Welcome to RequestApp</h1>
+    
+        
+        <div>
+            <h2>Los últimos 10 requests han sido:</h2>
+            <ul class="stats">
+                
+                <% for(var i=0; i<stats.length; i++) {%>
+                <li class="stat">
+                    <span><%= stats[i].ip %></span>
+                    <span><%= stats[i].date %></span>
+                </li>
+                <% } %>
+               
+              </ul>
+        </div>
+    
+        
+    </body>
+    </html>
