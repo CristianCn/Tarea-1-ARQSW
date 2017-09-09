@@ -16,6 +16,6 @@ La aplicación está hosteada en una instancia EC2 de AWS con las caractéristic
 
 ### Link a la App:
 
-[Go to the App](ec2-52-67-5-115.sa-east-1.compute.amazonaws.com)
+[Go to the App](http://ec2-52-67-5-115.sa-east-1.compute.amazonaws.com)
 	
 
